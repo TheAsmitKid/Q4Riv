@@ -1,0 +1,17 @@
+Source: setuzuna-q4sz-plymouth
+Section: none
+Priority: optional
+Maintainer: theasmitkid
+Build-Depends: debhelper (>= 9~), q4os-devpack-base
+Standards-Version: 3.8.4
+
+Package: setuzuna-q4sz-plymouth
+Architecture: all
+Pre-Depends:
+Depends: plymouth
+Recommends:
+Conflicts:
+Provides: setuzuna-q4sz-plymouth
+Replaces:
+Breaks:
+Description: Setuzuna Plymouth Theme for Q4OS
