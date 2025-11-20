@@ -18,7 +18,7 @@ sudo apt install dpkg-dev
 3. Run the build command:
 
 ```bash
-dpkg-deb --build . setuzuna-q4sz-plymouth-1.0-anylinux.deb
+dpkg-buildpackage -b -uc -us -tc
 ```
 ---
 
