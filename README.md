@@ -52,6 +52,12 @@ GRUB_CMDLINE_LINUX_DEFAULT="quiet splash"
 
 > **Note:** On some systems, you might also need to add `i915.modeset=1` at the end of `GRUB_CMDLINE_LINUX_DEFAULT` to get Plymouth to work. Test on your own hardware — this is **not a q4Riv issue**.
 
+* After saving the file, update grub:
+
+```text
+sudo update-grub
+```
+
 4. Set q4Riv as the default theme and update:
 
 ```bash
