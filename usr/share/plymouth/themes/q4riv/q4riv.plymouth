@@ -1,0 +1,8 @@
+[Plymouth Theme]
+Name=Q4Riv
+Description=Q4Riv Plymouth Theme for Q4OS
+ModuleName=script
+
+[script]
+ImageDir=/usr/share/plymouth/themes/q4riv/images
+ScriptFile=/usr/share/plymouth/themes/q4riv/q4riv.script
