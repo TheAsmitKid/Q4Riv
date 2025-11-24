@@ -11,8 +11,8 @@
 
 override_dh_install:
 	dh_install
-	mkdir -p debian/setuzuna-q4sz-plymouth
-	cp -r usr/ debian/setuzuna-q4sz-plymouth/
+	mkdir -p debian/q4riv-plymouth-theme
+	cp -r usr/ debian/q4riv-plymouth-theme/
 	# dh_modify_debdir
 
 # override_dh_link:

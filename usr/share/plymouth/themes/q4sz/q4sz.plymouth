@@ -1,8 +1,0 @@
-[Plymouth Theme]
-Name=Q4SZ
-Description=Setuzuna Plymouth Theme for Q4OS
-ModuleName=script
-
-[script]
-ImageDir=/usr/share/plymouth/themes/q4sz/images
-ScriptFile=/usr/share/plymouth/themes/q4sz/q4sz.script

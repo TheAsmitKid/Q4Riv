@@ -10,10 +10,10 @@ If you want to build the `.deb` package from the source theme files:
 1. Make sure you have `dpkg-deb` installed:
 
 ```bash
-sudo apt install dpkg-dev
+sudo apt install dpkg-dev q4os-devpack-base
 ```
 
-2. Navigate to the folder containing the theme directory (`usr/share/plymouth/themes/q4sz`) and `DEBIAN` control folder.
+2. Navigate to the folder containing the theme directory (`usr/share/plymouth/themes/q4sz`) and `debian` control folder.
 
 3. Run the build command:
 
@@ -27,7 +27,7 @@ dpkg-buildpackage -b -uc -us -tc
 1. Install the `.deb` package:
 
 ```bash
-sudo apt install ./setuzuna-q4sz-plymouth-1.0-anylinux.deb
+sudo apt install ./q4riv-plymouth-theme_1.0-a1_all.deb
 ```
 
 2. You may need to tweak **GRUB** settings. Edit:
