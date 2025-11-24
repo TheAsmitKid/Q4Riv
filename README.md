@@ -1,4 +1,4 @@
-# q4Riv
+# Q4Riv
 A minimal, sleek Plymouth theme for **Q4OS**. q4Riv elegantly conceals the boot process while presenting a smooth, luminous animation for the system’s first glance.
 
 ---
@@ -7,13 +7,13 @@ A minimal, sleek Plymouth theme for **Q4OS**. q4Riv elegantly conceals the boot 
 
 If you want to build the `.deb` package from the source theme files:
 
-1. Make sure you have `dpkg-deb` installed:
+1. Make sure you have required dependencies installed:
 
 ```bash
 sudo apt install dpkg-dev q4os-devpack-base
 ```
 
-2. Navigate to the folder containing the theme directory (`usr/share/plymouth/themes/q4sz`) and `debian` control folder.
+2. Navigate to the folder containing the theme directory (`usr/share/plymouth/themes/q4riv`) and `debian` control folder.
 
 3. Run the build command:
 
@@ -24,13 +24,15 @@ dpkg-buildpackage -b -uc -us -tc
 
 ## Installation
 
-1. Install the `.deb` package:
+1. Double click the `.qsi` installer for an interactive setup.
+
+2. Alternatively, install using `.deb` package:
 
 ```bash
 sudo apt install ./q4riv-plymouth-theme_1.0-a1_all.deb
 ```
 
-2. You may need to tweak **GRUB** settings. Edit:
+3. You may need to tweak **GRUB** settings. Edit:
 
 ```bash
 sudo nano /etc/default/grub
@@ -50,16 +52,16 @@ GRUB_CMDLINE_LINUX_DEFAULT="quiet splash"
 
 > **Note:** On some systems, you might also need to add `i915.modeset=1` at the end of `GRUB_CMDLINE_LINUX_DEFAULT` to get Plymouth to work. Test on your own hardware — this is **not a q4Riv issue**.
 
-3. Set q4Riv as the default theme and update:
+4. Set q4Riv as the default theme and update:
 
 ```bash
-sudo plymouth-set-default-theme -R q4Riv
+sudo plymouth-set-default-theme -R q4riv
 ```
 
 ---
 
 ## Feedback
 
-Your feedback is appreciated! :p
+Your feedback is appreciated!
 
 Please share your thoughts, issues, or improvement suggestions on the [Q4OS Forum – q4Riv Discussion](https://q4os.org/forum/viewtopic.php?id=5793).
